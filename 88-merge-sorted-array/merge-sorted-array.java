@@ -51,7 +51,7 @@ class Solution
         {
             nums1[i]=result[i];
         }
-        System.out.print(Arrays.toString(nums1));
+        System.out.print(Arrays.toString(result));
    } 
    public static void main(String[]args)
    {
