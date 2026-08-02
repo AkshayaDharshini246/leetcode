@@ -45,9 +45,7 @@ class Solution
         {
             result[m+j]=nums2[j];
         }
-        Arrays.sort(result);
-        for(int i=0;i<m+n;i++)
-        //if(result[i]!=0)
+        Arrays.sort(result);for(int i=0;i<m+n;i++)
         {
             nums1[i]=result[i];
         }
