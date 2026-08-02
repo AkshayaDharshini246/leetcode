@@ -45,11 +45,12 @@ class Solution
         {
             result[m+j]=nums2[j];
         }
-        Arrays.sort(result);for(int i=0;i<m+n;i++)
+        Arrays.sort(result);
+        for(int i=0;i<m+n;i++)
         {
             nums1[i]=result[i];
         }
-        System.out.print(Arrays.toString(result));
+        System.out.print(Arrays.toString(nums1));
    } 
    public static void main(String[]args)
    {
